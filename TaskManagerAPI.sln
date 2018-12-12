@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager.Entities", "Tas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager.Test", "TaskManager.Test\TaskManager.Test.csproj", "{609863FC-2BD8-4844-9A01-A8D81FD0590F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager.NBench", "TaskManager.NBench\TaskManager.NBench.csproj", "{BFDAD5F9-9454-4618-BF45-630F71788D8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,8 +41,15 @@ Global
 		{609863FC-2BD8-4844-9A01-A8D81FD0590F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{609863FC-2BD8-4844-9A01-A8D81FD0590F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{609863FC-2BD8-4844-9A01-A8D81FD0590F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFDAD5F9-9454-4618-BF45-630F71788D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFDAD5F9-9454-4618-BF45-630F71788D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFDAD5F9-9454-4618-BF45-630F71788D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFDAD5F9-9454-4618-BF45-630F71788D8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {003E067A-6354-4D75-AA86-A25358CCE819}
 	EndGlobalSection
 EndGlobal
